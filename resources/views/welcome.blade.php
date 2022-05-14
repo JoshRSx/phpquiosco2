@@ -4,9 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="Location" content="https://pqsc2.herokuapp.com/"/>
-        <script type="text/javascript">
-            window.location.replace("<?= https://pqsc2.herokuapp.com?>");
-          </script>
+
         <title>Laravel</title>
 
         <!-- Fonts -->

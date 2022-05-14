@@ -66,6 +66,10 @@
 
   
 
+        $data2 = file_get_contents($link_completo."5");
+        $base64_2 = 'data:image/' . pathinfo($link_completo, PATHINFO_EXTENSION) . ';base64,' . base64_encode($data2);
+
+        echo  "<img src=$base64_2>";
 
 
  
